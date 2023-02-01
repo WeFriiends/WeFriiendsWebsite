@@ -1,0 +1,514 @@
+body {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    min-width: 320px;
+    margin: auto !important;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    width: 1172px;
+    margin: auto;
+    padding: 0;
+  }
+  
+  ul, li {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6, div, header, section, button, span, p, a {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.logo{
+  margin-top: 59px;
+}
+
+.header-menu{
+  margin-top: 41px;
+}
+
+.header-menu li{
+  margin-left: 57px;
+}
+
+.header-menu a{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #afb1b6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.active{
+  color: #F46B5D;
+}
+
+.item:hover{
+  color: #F46B5D;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;                                  
+}
+
+/*.header-menu a:hover{
+  color: #000000;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}*/
+
+.main-banner{
+  background-color: #FFF1EC;
+  margin: 127px 0;
+  /*padding: 59px 0;*/
+  height: 345px;
+}
+
+.main-banner-text{
+  margin: 59px 84px 0 0;
+}
+
+.main-banner-img{
+  margin-top: -104px;
+}
+
+.main-banner p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #333333;
+}
+
+.about{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  color: #333333;
+}
+
+h1{
+  font-family: 'Inter';
+  font-size: 32px;
+  margin: 58px 0 -10px 0;
+  
+}
+
+.about p{
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+.you-can h2{
+  padding: 166px 0 70px 0;
+  font-size: 40px;
+}
+
+.you-can-2{
+  position: relative;
+  width: 300px;
+}
+
+.you-can-3{
+  position: relative;
+  width: 340px;
+}
+
+.you-can-1{
+  position: relative;
+  width: 260px;
+}
+
+.you-can span{
+  position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  color: #333333;
+}
+
+.you-can-1 span{
+  left: 45px;
+  top: 20px;
+  line-height: 32px;
+}
+
+.you-can-2 span{
+  left: 45px;
+  top: 35px;
+}
+
+.you-can-3 span{
+  left: 33px;
+  top: 11px;
+  line-height: 34px;
+}
+
+.you-can-bg1{
+  background: linear-gradient(180deg, rgba(255, 241, 236, 0) 0%, #FFF1EC 70.06%, #FFF1EC 100%);
+  height: 410px; 
+  margin-top: -40px;
+}
+
+.you-can-bg2{
+  background: linear-gradient(180deg, rgba(255, 241, 236, 0) 0%, #FFF1EC 70.06%, #FFF1EC 100%);
+  transform: rotate(-180deg);
+  height: 200px;
+}
+
+
+.landing-bg1{
+  padding: 7px 0 0 0;
+  left: 0px;
+  background: linear-gradient(180deg, rgba(255, 241, 236, 0) 0%, #FFF1EC 69.4%, #FFF1EC 100%);
+}
+
+.landing-bg2{
+  background: linear-gradient(180deg, rgba(255, 241, 236, 0) 0%, #FFF1EC 69.4%, #FFF1EC 100%);
+  transform: rotate(-180deg);
+  height: 200px;
+}
+
+.landing{
+  margin-top: 70px;
+}
+
+.landing h2{
+  margin-bottom: 100px;
+  font-size: 40px;
+}
+
+figure{
+  width: 265px;
+  /*height: 354px;*/
+}
+
+figcaption{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+  color: #333333;
+}
+
+.landing-card-1 figcaption,
+.landing-card-2 figcaption{
+  padding-top: 56px;
+}
+
+.landing-card-3 figcaption,
+.landing-card-4 figcaption{
+  padding-top: 18px;
+}
+
+.landing-card-5 figcaption{
+  padding-top: 28px;
+}
+
+.landing-card-1,
+.landing-card-2,
+.landing-card-3,
+.landing-card-4{
+  width: 270px;
+  margin: 36px 46px;
+}
+
+.landing-card-5{
+  width: 270px;
+  margin: 100px 46px 0 46px;
+}
+
+
+.support{
+  background-color: #FFF1EC;
+  padding-top: 85px; 
+  margin-top: 25px;
+}
+
+.support h3{
+  padding-bottom: 73px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  color: #333333;
+}
+
+.support-text{
+  margin: 29px 0 64px 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  color: #333333;
+}
+
+.support-title-text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 29px;
+  text-align: center;
+  color: #333333;
+}
+
+h4{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #F46B5D;
+  padding-bottom: 37px;
+}
+
+form{
+  padding-bottom: 124px;
+}
+
+.form input, button{
+  padding: 18px 24px;
+  gap: 16px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-right: 28px;
+  width: 348px;
+}
+
+button, .button-donate{
+  background: #FB8F67;
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.button-donate{
+  padding: 18px 144px;
+  border-radius: 10px;
+  margin-right: 28px;
+  border: none;
+  outline: none;
+  margin-right: 28px;
+  text-decoration: none;
+}
+
+.button-donate:hover{
+  color: #FFF1EC;
+}
+
+.support-card-1,
+.support-card-2{
+  /*width: 372px;*/
+  width: 410px;
+}
+
+.support-card-1 button{
+  margin: 10px 0 60px 0;
+}
+
+.support-card-1 img,
+.support-card-2 img{
+  margin-left: -18px;
+}
+
+.support-card-2 img{
+  margin-top: 60px;
+}
+
+.support-card-1{
+  margin-top: 44px;
+}
+
+footer{
+  background: #FB8F67;
+  padding: 110px 0 160px 0;
+}
+
+footer a{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer a:hover{
+  color: #ffffffc7;
+}
+
+.footer-1, .footer-2{
+  margin: 0 70px 0 140px;
+}
+
+.footer-1 li, .footer-2 li{
+  margin-bottom: 10px;
+}
+
+
+/* about-us page */
+
+.team-title{
+  font-family: 'Inter';
+  font-size: 40px;
+  font-style: Medium;
+  padding-bottom: 43px;
+}
+
+.team-1{
+  background: url('../images/back1.png') no-repeat center center;
+  height: 1755px;
+  width: 100%;
+  padding-top: 107px;
+  
+}
+
+.team-img-left{
+  margin-right: 17px;
+}
+
+.team-img-right{
+  margin-left: 17px;
+}
+
+.card-item{
+  margin-top: 70px;
+  width: 832px;
+}
+
+.helen-card,
+.kate-card,
+.ilmira-card,
+.elena-card,
+.katya-card,
+.anastasia-card{
+  margin: 30px 0 0 0;
+}
+
+.helen-card .team-text,
+.kate-card .team-text,
+.ilmira-card .team-text,
+.elena-card .team-text,
+.katya-card .team-text,
+.anastasia-card .team-text{
+  width: 480px;
+}
+
+.helen-card .team-text{
+  text-indent: 9px;
+  width: 460px;
+}
+
+.team-name{
+  font-family: 'Inter';
+  font-style: Medium;
+  font-size: 32px;
+  color: #F46B5D;
+  margin-top: 53px;
+}
+
+.team-profession{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 20px;
+  color: #333333;
+  margin: 12px 0 28px 0;
+}
+
+.team-link{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 20px;
+  color: #333333;
+  text-decoration: underline;
+}
+
+.team-link:hover{
+  color: #4d4a4a;
+  text-decoration: none;
+}
+
+.team-text{
+  margin-bottom: 24px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+
+.team-2{
+  background: url('../images/back2.png') no-repeat center center;
+  height: 1855px;
+  width: 100%;
+  margin-bottom: 355px;
+}
+
+.team-3{
+  background: url('../images/back3.png') no-repeat center center;
+  height: 900px;
+  width: 100%;
+  padding-top: 60px;
+  margin-bottom: 300px;
+}
+
+.team-join{
+  background: rgba(255, 241, 236, 1);
+  padding: 98px 0 96px 0;
+}
+
+.team-join-black{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 40px;
+  color: #333333;
+  margin-bottom: 24px;
+}
+
+.team-join-red{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 40px;
+  color: #F46B5D;
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 1199px){
+  .form div button{
+    margin-top: 30px;
+  }
+
+  .footer-1, .footer-2{
+    margin: 0 50px 0 100px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .container{
+    width: 90%;
+  } 
+}
