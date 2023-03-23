@@ -344,7 +344,7 @@ button, .button-donate{
 
 footer{
   background: #FB8F67;
-  padding: 110px 0 160px 0;
+  padding: 100px 0 84px 0;
 }
 
 footer a{
@@ -386,6 +386,14 @@ footer a:hover{
   width: 100%;
   padding-top: 107px;
   
+}
+
+
+.v div{
+  background: url('../images/back1.png') no-repeat center center;
+  height: 1755px;
+  width: 100%;
+  margin: 170px 0;
 }
 
 .team-img-left{
@@ -510,5 +518,67 @@ footer a:hover{
 @media screen and (max-width: 991px){
   .container{
     width: 90%;
-  } 
+  }
+  
+  .media__menu {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+a.close__btn {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(29, 135, 140, 1);
+    display: block;
+    transition: 0.3s;
+}
+
+.header__menu {
+    padding-top: 0;
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+.header-menu{
+  margin-top: 0;
+}
+
+.header-menu li{
+  margin-left: 0;
+  
+}
+
+.media__menu a:hover, .media__menu a:focus {
+      color: rgb(119, 172, 175);
+}
+
+.media__menu .close__btn {
+    position: absolute;
+    top: 5px;
+    right: 45px;
+    font-size: 40px;
+}
+
+.media__cursor{
+  font-size: 40px;
+  color: rgba(29, 135, 140, 1);
+  cursor: pointer;
+  margin-top: 48px;
+}
+
+.media__cursor:hover{
+  color: rgba(29, 135, 140, 1);
+
+}
+
 }
