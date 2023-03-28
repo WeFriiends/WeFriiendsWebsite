@@ -76,16 +76,16 @@ body {
 .main-banner{
   background-color: #FFF1EC;
   margin: 127px 0;
-  /*padding: 59px 0;*/
-  height: 345px;
+  padding: 59px 0;
 }
 
 .main-banner-text{
-  margin: 59px 84px 0 0;
+  margin: 59px 0 0 0;
 }
 
 .main-banner-img{
   margin-top: -104px;
+  margin-left: 62px;
 }
 
 .main-banner p{
