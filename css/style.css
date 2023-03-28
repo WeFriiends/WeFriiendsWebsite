@@ -76,16 +76,16 @@ body {
 .main-banner{
   background-color: #FFF1EC;
   margin: 127px 0;
-  /*padding: 59px 0;*/
-  height: 345px;
+  padding: 59px 0;
 }
 
 .main-banner-text{
-  margin: 59px 84px 0 0;
+  margin: 59px 0 0 0;
 }
 
 .main-banner-img{
   margin-top: -104px;
+  margin-left: 62px;
 }
 
 .main-banner p{
@@ -282,7 +282,7 @@ h4{
 }
 
 form{
-  padding-bottom: 124px;
+  padding-bottom: 108px;
 }
 
 .form input, button{
@@ -292,7 +292,7 @@ form{
   border-radius: 10px;
   border: none;
   outline: none;
-  margin-right: 28px;
+  /* margin-right: 28px; */
   width: 348px;
 }
 
@@ -361,15 +361,14 @@ footer a{
 footer a:hover{
   color: #ffffffc7;
 }
-
-.footer-1, .footer-2{
-  margin: 0 70px 0 140px;
+.footer-logo{
+  margin-bottom: 32px;
+  padding: 0;
 }
 
-.footer-1 li, .footer-2 li{
-  margin-bottom: 10px;
+.footer-1{
+  padding-bottom: 32px;
 }
-
 
 /* about-us page */
 
@@ -510,9 +509,6 @@ footer a:hover{
     margin-top: 30px;
   }
 
-  .footer-1, .footer-2{
-    margin: 0 50px 0 100px;
-  }
 }
 
 @media screen and (max-width: 991px){
