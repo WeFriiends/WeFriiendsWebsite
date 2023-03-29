@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-4 logo">
-                    <img src="images/logo.svg" alt="logo">
+                    <img class="img-fluid" src="images/logo.svg" alt="logo">
                 </div>
                 <div class="col-8">
                     <nav id="myNav" class="header-menu media__menu">
@@ -36,7 +36,7 @@
     </header>
     <div class="main-banner">
         <div class="container">
-            <div class="d-flex justify-content-center">
+            <div class="d-flex main-banner-block justify-content-center">
                 <div class="main-banner-text">
                     <p>Hello, dear!</p>
                     <p>Let us help you</p>
@@ -53,7 +53,7 @@
             <div class="container">
                 <p class="text-center">This is</p>
                 <div class="d-flex justify-content-center">
-                    <img class="text-center" src="images/logo.svg" alt="logo">
+                    <img class="text-center img-fluid" src="images/logo.svg" alt="logo">
                 </div>
                 <h1 class="text-center">An app, made by women for women</h1>
             </div>
@@ -128,10 +128,10 @@
                 <p class="support-text">You can</p>
                 <h4 class="text-center">Subscribe to e-mail alert</h4>
                 <form>
-                    <div class="form d-flex justify-content-center flex-wrap align-item-center">
-                        <div><input type="text" placeholder="your name"></div>
-                        <div><input type="email" placeholder="e-mail"></div>
-                        <div><button type="submit">send</button></div>
+                    <div class="form d-flex justify-content-around flex-wrap align-item-center">
+                        <div class="mb-3"><input type="text" id="name" placeholder="your name"></div>
+                        <div><input type="email" id="email" placeholder="e-mail"></div>
+                        <div><button type="submit" id="btn">send</button></div>
                     </div>
                 </form>
                 <div class="d-flex felx-wrap justify-content-around align-items-start">
@@ -151,14 +151,14 @@
     </main>
     <footer>
         <div class="container">
-            <div class="d-flex">
-                <div>
-                    <img src="images/white-logo.svg" alt="white-logo">
+            <div class="row">
+                <div class="col-12 col-lg-6 footer-logo">
+                    <img class="img-fluid" src="images/white-logo.svg" alt="white-logo">
                 </div>
-                <nav class="d-flex">
-                    <ul class="footer-1">
+                <nav class="col-12 col-lg-6 row ">
+                    <ul class="footer-1 col-lg-6">
                         <li>
-                            <a href="">home</a>
+                            <a href="#">home</a>
                         </li>
                         <li>
                             <a href="about-us.html">about us</a>
@@ -167,7 +167,7 @@
                             <a class="item" href="https://github.com/sponsors/WeFriiends">donate</a>
                         </li>
                     </ul>
-                    <ul class="footer-2">
+                    <ul class="footer-2 col-lg-6">
                         <li>
                             <a target="_blank" href="https://docs.google.com/document/d/1zoLKSafvjGhDCtsQrk9pJ-y35--giygydB2Fxn_I1QY/edit">privacy policy</a>
                         </li>
