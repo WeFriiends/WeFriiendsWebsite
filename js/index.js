@@ -39,9 +39,10 @@ function postRequest(urlSend) {
   const xhr = new XMLHttpRequest();
   
   xhr.open('POST', urlSend);
-  xhr.send('POST', urlSend);
   xhr.setRequestHeader('Content-Type', 'application/json');
   xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+  xhr.send('POST', urlSend);
+  
 }
 
 function creatingUrl(apiUrl, apiKey, name, email, listIds) {
