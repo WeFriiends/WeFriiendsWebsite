@@ -37,8 +37,8 @@ btn.addEventListener('click', (e) => {
 
 function postRequest(urlSend) {
   const xhr = new XMLHttpRequest();
-  xhr.setRequestHeader(‘Content-Type’, ‘application/json’);
-  xhr.setRequestHeader(‘Access-Control-Allow-Origin’, ‘*’);
+  xhr.setRequestHeader('Content-Type', 'application/json');
+  xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
   xhr.open('POST', urlSend);
   xhr.send('POST', urlSend);
 }
