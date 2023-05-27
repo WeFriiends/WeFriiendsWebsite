@@ -1,15 +1,38 @@
 body{
-    padding: 60px 0 100px 0;
+    font-family: 'Inter';
+    color: #333333;
+}
+
+.privacy{
+    margin: 120px 0 248px 0;
+}
+
+li{
+    list-style-type: disc;
+}
+
+.title-1{
+    font-size: 40px;
+}
+
+.title-img{
+    padding-top: 38px;
+}
+
+.title-text, h2, h3{
+    font-size: 22px;
+    color: #000000;
+    font-weight: 500;
 }
 
 h1{
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 h2, h3{
-    margin: 35px 0;
+    padding: 60px 0 10px 0;
 }
 
-p, span{
-    font-size: 18px;
+ul{
+    margin-left: 25px;
 }

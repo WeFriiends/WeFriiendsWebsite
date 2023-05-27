@@ -14,7 +14,7 @@ body {
     padding: 0;
   }
   
-  ul, li {
+  ul{
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     display: block;
@@ -39,6 +39,7 @@ body {
 
 .header-menu li{
   margin-left: 57px;
+  list-style-type: none;
 }
 
 .header-menu a{
@@ -356,6 +357,10 @@ footer a{
   color: #FFFFFF;
   text-decoration: none;
   cursor: pointer;
+}
+
+footer li{
+  list-style-type: none;
 }
 
 footer a:hover{
