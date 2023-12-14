@@ -517,6 +517,82 @@ footer a:hover{
   margin-bottom: 120px;
 }
 
+.share-card_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto 0 auto;
+  max-width: 900px;
+}
+.share-card {
+  width: 30%;
+  margin: auto;
+  position: relative;
+}
+.share-card .button-donate {
+  width: 255px;
+  padding: 18px;
+}
+.scimg {
+  margin-bottom: -25px;
+}
+.scimg img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.buttons {
+  display: none;
+  position: absolute;
+  right: -50%;
+  bottom: 0%;
+  top: 0;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+}
+  
+.buttons a {
+  color: #FFF1EC;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.buttons a,
+.share-card button {
+  background-color: #FB8F67;
+  padding: 6px;
+  border-radius: 10px;
+} 
+
+
+.buttons a:hover,
+.share-card button:hover {
+  text-decoration: underline;
+}
+
+.buttons.active {
+  display: flex;
+}
+
+.buttons img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-right: 6px;
+}
+.share-card button {
+  width: auto;
+  text-align: left;
+}
+
+h3 .button-donate {
+  background-color: #F46B5D;
+}
+
 @media screen and (max-width: 1199px){
   .form div button{
     margin-top: 30px;
@@ -721,6 +797,19 @@ a.close__btn {
   border: none;
   outline: none;
   text-decoration: none;
+}
+
+.share-card_wrapper {
+  flex-direction: column;
+  gap: 30px;
+}
+
+.share-card {
+  width: auto;
+  margin: auto;
+}
+.buttons {
+  right: -10%;
 }
 
 }
