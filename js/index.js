@@ -128,3 +128,26 @@ const btnHandler = function(e) {
 const btn = document.querySelector('#btn'); //выбрана кнопка
 
 btn.addEventListener('click', btnHandler);
+
+const share = document.querySelector('#share'); 
+const buttons = document.querySelector('#buttons'); 
+
+share.addEventListener('click', (e) => {
+  e.preventDefault();
+});
+
+share.onmouseover = function() {mouseOver()};
+share.onmouseout = function() {mouseOut()};
+function mouseOver() {
+  buttons.classList.toggle('active');
+}
+function mouseOut() {
+  // buttons.classList.toggle('active');
+}
+
+
+function shareOnViber() {
+  var text = "Look at this: ";
+  var url = encodeURIComponent(text + " " + window.location.href);
+  window.location.href = "viber://forward?text=" + url;
+}
