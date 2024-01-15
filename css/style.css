@@ -407,20 +407,22 @@ footer a:hover{
 }
 
 .helen-card,
-.kate-card,
-.ilmira-card,
-.elena-card,
+.svitlana-card,
+.anastasia-ni-card,
+.zinaida-card,
+.natali-card,
 .katya-card,
-.anastasia-card{
+.elena-dr-card{
   margin: 30px 0 0 0;
 }
 
 .helen-card .team-text,
-.kate-card .team-text,
-.ilmira-card .team-text,
-.elena-card .team-text,
+.svitlana-card .team-text,
+.anastasia-ni-card .team-text,
+.zinaida-card .team-text,
 .katya-card .team-text,
-.anastasia-card .team-text{
+.natali-card .team-text,
+.elena-dr-card .team-text{
   width: 480px;
 }
 
@@ -468,17 +470,88 @@ footer a:hover{
 
 .team-2{
   background: url('../images/bv2.png') no-repeat center center;
-  height: 1855px;
+  height: 1215px;
   width: 100%;
-  margin-bottom: 355px;
+  margin: -300px 0 205px;
 }
 
 .team-3{
-  background: url('../images/back3.png') no-repeat center center;
-  height: 900px;
+  background: url('../images/bv1.png') no-repeat center center;
+  height: 1155px;
   width: 100%;
-  padding-top: 60px;
-  margin-bottom: 300px;
+}
+
+.team-4{
+  background: url('../images/bv4.png') no-repeat center center;
+  height: 1455px;
+  width: 100%;
+  margin-top: -200px;
+}
+
+.sofia-card{
+  padding: 186px 0 50px;
+}
+
+.elena-ba-card{
+  margin-top: -20px;
+}
+
+.team-helped{
+  margin: 380px 0 152px;
+}
+
+h3{
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 60px;
+  color: #333333;
+  margin-bottom: 60px;
+}
+
+.team-helped-1,
+.team-helped-2,
+.team-helped-3{
+  margin: 0 30px;
+}
+
+.team-name-helped{
+  font-family: 'Inter';
+  font-style: Medium;
+  font-size: 22px;
+  color: #F46B5D;
+  font-weight: 500;
+  margin: 12px 0 7px 0;
+}
+
+.team-helped-1 .team-name-helped{
+  margin-left: -70px;
+}
+
+.team-helped-2 .team-name-helped{
+  margin-left: -105px;
+}
+
+.team-helped-3 .team-name-helped{
+  margin-left: -25px;
+}
+
+.team-helped-occupacy{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.team-helped-1 .team-helped-occupacy{
+  margin-left: -101px;
+}
+
+.team-helped-2 .team-helped-occupacy{
+  margin-left: -119px;
+}
+
+.team-helped-3 .team-helped-occupacy{
+  margin-left: -166px;
 }
 
 .team-join{
@@ -598,6 +671,12 @@ h3 .button-donate {
     margin-top: 30px;
   }
 
+  .team-helped-1,
+  .team-helped-2,
+  .team-helped-3{
+    margin: 20px 10px;
+  }
+
 }
 
 @media screen and (max-width: 991px){
@@ -687,7 +766,8 @@ a.close__btn {
 
 .team-1,
 .team-2,
-.team-3{
+.team-3,
+.team-4{
   background: none;
 
 }
@@ -705,12 +785,19 @@ a.close__btn {
 }
 
 .helen-card .team-text,
-.kate-card .team-text,
-.ilmira-card .team-text,
-.elena-card .team-text,
+.svitlana-card .team-text,
+.zinaida-card .team-text,
+.natali-card .team-text,
 .katya-card .team-text,
-.anastasia-card .team-text{
+.anastasia-ni-card .team-text,
+.elena-dr-card .team-text{
   width: auto;
+}
+
+.team-helped-1,
+.team-helped-2,
+.team-helped-3{
+  margin: 20px;
 }
 
 }
@@ -762,24 +849,37 @@ a.close__btn {
   }
 
   .helen-card,
-  .kate-card,
-  .ilmira-card,
-  .elena-card,
+  .svitlana-card,
+  .zinaida-card,
+  .anastasia-ni-card,
+  .natali-card,
   .katya-card,
-  .anastasia-card{
+  .elena-dr-card{
     flex-wrap: wrap-reverse;
 }
 
 .team-1{
-  margin-bottom: 1160px;
+  margin-bottom: 810px;
 }
 
 .team-2{
-  margin-bottom: 1890px;
+  margin-bottom: 1330px;
 }
 
 .team-3{
-  margin-bottom: 600px;
+  margin-bottom: 1070px;
+}
+
+.team-4{
+  margin-bottom: 1570px;
+}
+
+.sofia-card{
+  padding: 186px 0 0;
+}
+
+.elena-ba-card{
+  margin-top: 60px;
 }
 
 .team-img-left{
@@ -819,34 +919,58 @@ a.close__btn {
   .form input, button{
     width: 300px;
   }
+
+  .team-helped{
+    margin: 70px 0 92px;
+  }
+  
+  h3{
+    margin-bottom: 30px;
+  }
+
+  .team-3{
+    margin-bottom: 1130px;
+  }
 }
 
 @media screen and (max-width: 458px) {
   .team-1{
-    margin-bottom: 1180px;
+    margin-bottom: 810px;
   }
   
   .team-2{
-    margin-bottom: 1990px;
+    margin-bottom: 1410px;
   }
 }
 
 @media screen and (max-width: 410px) {
   .team-1{
-    margin-bottom: 1230px;
+    margin-bottom: 850px;
   }
   
   .team-2{
-    margin-bottom: 2040px;
+    margin-bottom: 1410px;
+  }
+
+  .team-4{
+    margin-bottom: 1650px;
   }
 }
 
 @media screen and (max-width: 347px) {
   .team-1{
-    margin-bottom: 1260px;
+    margin-bottom: 870px;
   }
   
   .team-2{
-    margin-bottom: 2092px;
+    margin-bottom: 1482px;
+  }
+
+  .team-3{
+    margin-bottom: 1230px;
+  }
+
+  .team-4{
+    margin-bottom: 1700px;
   }
 }
